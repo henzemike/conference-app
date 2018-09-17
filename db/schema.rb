@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_31_231355) do
+ActiveRecord::Schema.define(version: 2018_09_13_035955) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2018_08_31_231355) do
     t.datetime "updated_at", null: false
     t.string "location"
     t.boolean "remote"
+    t.integer "speaker_id"
   end
 
   create_table "speakers", force: :cascade do |t|
