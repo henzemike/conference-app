@@ -1,4 +1,6 @@
 class Api::SpeakersController < ApplicationController
+  before_action :authenticate_admin, except: [:index, :show]
+  
   def index
     @speakers = Speaker.all
     render 'index.json.jbuilder'

@@ -1,7 +1,7 @@
-Speaker.create({first_name: "Dani", last_name: "Zaghian", email: "danielle@actualize.co"})
-Speaker.create({first_name: "Josh", last_name: "Nixon", email: "josh@actualize.co"})
-Speaker.create({first_name: "Peter", last_name: "Jang", email: "peter@actualize.co"})
-Speaker.create({first_name: "Brian", last_name: "Rice", email: "brian@actualize.co"})
+Speaker.create({first_name: "Steve", last_name: "Larsen", email: "steve@gmail.com"})
+Speaker.create({first_name: "Mary Lou", last_name: "Larsen", email: "mary@gmail.com"})
+Speaker.create({first_name: "Mark", last_name: "Larsen", email: "mark@gmail.com"})
+Speaker.create({first_name: "Mike", last_name: "Henze", email: "mike@gmail.com"})
 
 Meeting.create(
   title: "first meeting",
