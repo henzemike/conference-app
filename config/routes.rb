@@ -21,6 +21,7 @@ Rails.application.routes.draw do
 
     post "/users" => "users#create"
     post "/sessions" => "sessions#create"
-    
+    post "/meeting_topics" => "meeting_topics#create"
+    delete "/meeting_topics/:id" => "meeting_topics#destroy"
   end
 end
